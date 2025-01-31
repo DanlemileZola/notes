@@ -1,4 +1,4 @@
-Email use 3 different protocols to send and receive mails : [[SMTP]], [[IMAP]] and [[POP3]].
+Email use 3 different protocols to send and receive mails : [SMTP](SMTP), [IMAP](IMAP) and [POP3](POP3).
 
 While SMTP is used to handle sending and forwarding part of the process, for the receiving part, there is a choice between IMAP and POP3. 
 
@@ -22,7 +22,7 @@ RecipientMailServer --> RecipientClient : Deliver Email <b><color:DarkMagenta>(I
 @enduml
 ```
 
-But that diagram omit an important part of the process : the [[DNS]] request. 
+But that diagram omit an important part of the process : the [DNS](DNS) request. 
 In that part, there is three operations going on :
 
  - Request for MX record.
@@ -52,4 +52,4 @@ SenderMS ->] : Forward Email <b><color:Fuchsia>(SMTP)</color></b>
 ```
 
 Once the sender's mail server obtain the IP address,  it can finally forward the e-mail to the receiver's mail server. 
-I will skip that part - will probably go more in detail in [[SMTP]] itself - to jump to the authentication part.
+I will skip that part - will probably go more in detail in [SMTP](SMTP) itself - to jump to the authentication part.

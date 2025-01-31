@@ -1,4 +1,4 @@
-*ARP is the mapping of L3 address to L2 address. In other words : mapping of IP addresses to [[MAC]] addresses.*[](https://www.practicalnetworking.net/series/arp/address-resolution-protocol/)
+*ARP is the mapping of L3 address to L2 address. In other words : mapping of IP addresses to [MAC](MAC) addresses.*[](https://www.practicalnetworking.net/series/arp/address-resolution-protocol/)
 
 # Basic 
 
